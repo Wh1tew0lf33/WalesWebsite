@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sommer Event 2025</title>
+  <link href="styles.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+    <!-- Header -->
+  <header class="bg-yellow-300 text-center fixed w-full py-4 shadow-md">
+    <h1 class="text-4xl font-bold text-gray-900">Bavarian Summer</h1>
+  </header>
+  <!-- Navbar -->
+  <nav class="bg-blue-600 text-white p-4 fixed top-[72px] w-full z-10 shadow">
+    <ul class="flex justify-center gap-6">
+      <li><a href="#informationen" class="hover:underline">Informationen</a></li>
+      <li><a href="#faq" class="hover:underline">FAQ</a></li>
+      <li><a href="#kontakt" class="hover:underline">Kontakt</a></li>
+      <li><a href="#anmeldung" class="hover:underline">Anmeldung</a></li>
+    </ul>
+  </nav>
+
+  <main class="pt-[144px]">
+
+    <!-- Informationen -->
+<section id="informationen" class="p-10 bg-white">
+    <h2 class="text-3xl font-bold mb-6">🌍 Was ist der "Bavarian Summer"?</h2>
+    <p class="mb-4 text-lg">
+      <strong>Bavarian Summer</strong> ist ein einzigartiges Pfadfinderabenteuer, das diesen Sommer Ende August stattfindet – und zwar ganz im Zeichen von <strong>Begegnung, Abenteuer und Selbstständigkeit</strong>.
+      Gemeinsam mit einer Pfadfindergruppe aus <strong>Wales</strong> starten wir in ein zweiwöchiges internationales Erlebnis rund um <strong>München und Freising</strong>.
+    </p>
+  
+    <h3 class="text-2xl font-semibold mt-8 mb-2">🥾 Phase 1: Unterwegs im Großraum München (10 Tage)</h3>
+    <p class="mb-4">
+      In gemischten Gruppen von je <strong>acht Pfadfindern</strong> – vier aus Deutschland, vier aus Wales – begebt ihr euch auf eine <strong>zehntägige Entdeckungstour</strong> durch den Großraum München.
+      Dabei gilt: <em>Ihr organisiert euch selbst.</em>
+    </p>
+    <ul class="list-disc list-inside mb-4 space-y-1">
+      <li>Ihr plant eure Route,</li>
+      <li>sorgt selbst für Verpflegung,</li>
+      <li>und kümmert euch eigenständig um Übernachtungsmöglichkeiten.</li>
+    </ul>
+    <p class="mb-6">
+      Unterwegs erwarten euch abwechslungsreiche Aufgaben, interkulturelle Herausforderungen und spannende Begegnungen mit der Region und den Menschen vor Ort.
+    </p>
+  
+    <h3 class="text-2xl font-semibold mt-8 mb-2">⛺ Phase 2: Standlager in Freising (4 Tage)</h3>
+    <p class="mb-4">
+      Nach eurer Wanderzeit kommt ihr zum krönenden Abschluss ins <strong>gemeinsame Standlager nach Freising</strong>, wo wir nochmal alle zusammenkommen.
+    </p>
+    <p class="mb-6">
+      Dort wird wie gewohnt gezeltet, gemeinsam gekocht, gespielt, gesungen und die gemeinsame Zeit reflektiert.
+    </p>
+  
+    <p class="text-lg font-medium">
+      Das Event richtet sich an abenteuerlustige Pfadfinder*innen, die Lust auf <strong>Eigenverantwortung, internationale Freundschaft</strong> und <strong>ein echtes Sommerabenteuer</strong> haben.
+    </p>
+  </section>
+  
+
+    <!-- FAQ -->
+    <section id="faq" class="p-10 bg-gray-100">
+      <h2 class="text-2xl font-bold mb-4">FAQ</h2>
+      <ul class="space-y-4">
+        <li>
+          <strong>Wie melde ich mich an?</strong>
+          <p>Scroll nach unten zum Abschnitt „Anmeldung“ und fülle das Formular aus.</p>
+        </li>
+        <li>
+          <strong>Was soll ich mitbringen?</strong>
+          <p>Gute Laune, bequeme Kleidung und eventuell eine Sonnenbrille 😎</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt" class="p-10 bg-white">
+      <h2 class="text-2xl font-bold mb-4">Kontakt</h2>
+      <p>Fragen? Schreib uns gerne eine E-Mail an:</p>
+      <p><a href="mailto:deineemail@example.com" class="text-blue-600 underline">deineemail@example.com</a></p>
+    </section>
+
+    <!-- Anmeldung -->
+    <section id="anmeldung" class="p-10 bg-gray-100">
+      <h2 class="text-2xl font-bold mb-4">Anmeldung</h2>
+      <form id="signup-form" class="space-y-4 max-w-md">
+        <input type="text" name="name" placeholder="Dein Name" required class="w-full p-2 border rounded" />
+        <input type="email" name="email" placeholder="Deine E-Mail" required class="w-full p-2 border rounded" />
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Anmelden</button>
+      </form>
+      <p id="signup-message" class="mt-4 text-green-600 hidden">Danke für deine Anmeldung!</p>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
