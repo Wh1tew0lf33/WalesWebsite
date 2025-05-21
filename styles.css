@@ -64,10 +64,31 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   transition: opacity 0.2s ease;
+  transition: text-decoration 0.2s ease;
 }
 
 nav a:hover {
   opacity: 0.7;
+  text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+  nav {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.5rem 1rem;
+  }
+
+  nav a {
+    margin-right: 0rem;
+    font-size: 0.875rem; /* kleinerer Text */
+    padding: 0.25rem 0;
+  }
+
+  nav .space-x-4 > *:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+
 }
 
 .hero {
@@ -90,6 +111,7 @@ nav a:hover {
   font-weight: 600;
   font-style: normal;
   text-align: center;
+  white-space: nowrap;
 }
 
 .brush {
@@ -114,7 +136,7 @@ nav a:hover {
 @media (max-width: 768px) {
   .brush {
     background-size: 250% contain;
-    padding: 5rem 10rem;
+    padding: 6rem 12rem;
   }
 
   .hero-text h1 {
@@ -129,7 +151,7 @@ nav a:hover {
 @media (max-width: 480px) {
   .brush {
     background-size: 300% contain;
-    padding: 4rem 8rem;
+    padding: 5rem 10rem;
   }
 
   .hero-text h1 {
@@ -141,10 +163,32 @@ nav a:hover {
   }
 }
 
+.logo-img {
+  height: 200px;
+  width: auto;
+}
+
+@media (max-width: 600px) {
+  .logo-img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo-img {
+    height: 100px;
+  }
+}
+
 .section-white {
   background-color: white;
 }
 
 .section-red {
   background-color: #e6cdd0;
+}
+
+.footer{
+  background-color: var(--flyer-red);
+  color: white;
 }
