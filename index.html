@@ -36,6 +36,18 @@
         <p class="subtitle">August 2025</p>
     </div>
   </section>
+<!-- Info-Banner -->
+<section class="info-banner">
+  <div class="banner-overlay">
+    <h2>📢 Digitaler Info-Abend</h2>
+    <p><strong>01. Juni, 19:00 Uhr</strong></p>
+    <p>
+      Die unverbindliche Anmeldung dafür findest du
+      <a href="#anmeldung">hier</a>.
+    </p>
+  </div>
+</section>
+
 
     <!-- Informationen -->
 <section id="informationen" class="px-6 py-12 text-gray-800 section-white">
@@ -181,7 +193,7 @@
 
     <div class="mb-6">
       Haben wir dein Interesse geweckt? Dann melde dich doch ganz unverbindlich zu unserem Infoabend am <strong>01.06.2025</strong> um <strong>19:00</strong> über Teams an. Dazu musst du uns nur deinen Namen und deine Email mitteilen und wir senden dir rechtzeitig einen Link zum Meeting zu. <br />
-      Die Anmeldung für die Aktion wird im Anschluss an die Infoveranstaltung hier verfügbar sein.
+      Die Anmeldung für den Bavarian Summer wird im Anschluss an die Infoveranstaltung hier verfügbar sein.
     </div>
   <!--
     <form id="signup-form" class="space-y-6">
@@ -201,7 +213,7 @@
     </form>
   -->
 
-  <form action="https://formspree.io/f/xjkwzbnz" method="POST" class="space-y-4 max-w-md">
+  <form id="infoForm" action="https://formspree.io/f/xjkwzbnz" method="POST" class="space-y-4 max-w-md">
     <label class="block">
       <span class="text-gray-700">Name</span>
       <input type="text" name="name" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" />
@@ -214,6 +226,9 @@
       Interesse bekunden
     </button>
   </form>
+  <p id="successMessage" style="display: none; color: green; margin-top: 1rem;">
+  Danke! Wir haben deine Anmeldung erhalten.
+</p>
   </div>
 </section>
 
