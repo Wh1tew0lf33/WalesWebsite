@@ -193,14 +193,14 @@ nav a:hover {
   color: white;
 }
 
-.info-banner {
+.infobanner {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.banner-overlay {
+.banneroverlay {
   background-color: rgba(235, 59, 74, 0.95); /* Flyer-Rot mit etwas Transparenz */
   color: white;
   padding: 1.5rem 2rem;
@@ -211,18 +211,18 @@ nav a:hover {
   margin-top: 2rem;
 }
 
-.banner-overlay h2 {
+.banneroverlay h2 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
   color: white;
 }
 
-.banner-overlay p {
+.banneroverlay p {
   margin: 0.3rem 0;
   font-size: 1rem;
 }
 
-.banner-overlay a {
+.banneroverlay a {
   color: white;
   text-decoration: underline;
   font-weight: bold;
